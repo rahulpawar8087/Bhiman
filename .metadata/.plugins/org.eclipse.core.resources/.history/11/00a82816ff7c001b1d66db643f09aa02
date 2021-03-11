@@ -1,0 +1,13 @@
+package rahulOrganization.abc;
+
+import java.util.HashMap;
+
+public class hashmap 
+{
+	HashMap<String,String> map=new HashMap<String,String>();
+	map.put("1","abc");
+	
+	
+	
+	
+}

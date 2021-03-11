@@ -1,0 +1,18 @@
+package P123456;
+
+public class IndvsSA 
+{
+	public void Dream11()
+	{
+		System.out.println("Mithali raj 50");
+	}
+	public void Halaplay()
+	{
+		System.out.println("Sophie Devine 3/30");
+	}
+	public void Dream111()
+	{
+		System.out.println("Ruan pretorious 90,5-1-9-1");
+	}
+	
+}

@@ -1,0 +1,23 @@
+package SeleniumF;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Streams 
+{
+	public static void main(String args[])
+	{
+		ArrayList<String> Al=new ArrayList<String>();
+		List L=new ArrayList();
+		Al.add("Gaurav");
+		Al.add("Gupta");
+		Al.add("Mallu");
+		Al.add("Mathpati");
+		for(int i=0;i<Al.size();i++)
+		{
+			String s=Al.get(i);
+			System.out.println(i);
+		}
+		//Stream.of("Gaurav","Mallu","Rahul").
+	}
+}

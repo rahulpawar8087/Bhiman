@@ -1,0 +1,14 @@
+package rahulOrganization.Testmaven;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class testingramework 
+{
+	public void firsttest()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\RAHUL\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		WebDriver obj= new ChromeDriver();
+		obj.get("https://www.halaplay.com/");
+	}
+}

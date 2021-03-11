@@ -1,0 +1,21 @@
+package SeleniumF;
+
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CSS 
+{
+
+	public static void main(String[] args)
+	{
+		System.setProperty("Webdriver.chrome.driver","C:\\Users\\RAHUL\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		WebDriver GG=new ChromeDriver(); 
+		GG.get("https://www.facebook.com");
+		
+	}
+
+}
+

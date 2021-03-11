@@ -1,0 +1,14 @@
+package rahulOrganization.BhimanP;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Masters 
+{
+	public void login()
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\RAHUL\\Desktop\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		WebDriver obj= new ChromeDriver();
+		obj.get("http://103.50.162.196/testing/user-login.php");
+	}
+}

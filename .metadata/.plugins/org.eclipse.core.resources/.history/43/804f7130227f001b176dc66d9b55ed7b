@@ -1,0 +1,10 @@
+package P123456;
+
+public class p123 
+{
+	@Test
+	public void p1()
+	{
+	System.out.println("i am in test 1");	
+	}
+}
